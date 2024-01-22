@@ -18,3 +18,5 @@ This function finds the biggest number in the array by checking if there is only
 If the array has more than one element it recursively calls mystery with the whole array minus the first element and sets that equal to foo.
 This process happens as many times as there are elements in the array until foo only has one element and then it keeps comparing foo or a[0] for the rest of the calls.
 Once the recursion is done, you will be left with the returned value being the maximum value in the array.
+
+Help needed: Searched what the slice function does https://www.w3schools.com/jsref/jsref_slice_array.asp
